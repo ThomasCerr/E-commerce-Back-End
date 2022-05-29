@@ -11,13 +11,11 @@ Category.init(
       allowNULL: false,
       primaryKey: true,
       autoIncrement:true
-    }
-  },
-  {
-    catagory_name: {
+    },
+    category_name: {
       type: DataTypes.STRING,
       allowNULL: false
-    }
+   } 
   },
   {
     sequelize,
